@@ -1,0 +1,36 @@
+{% extends 'survey/base.html' %}
+{% block body_block %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="col-xs-12">
+    <div class="panel panel-default">
+  <div class="panel-body">Welcome to Survey Managemnet</div>
+
+</div>
+
+<div class="card col-xs-4">
+    <a href="/admin">
+
+<img src="/static/img/admin.png">
+    </a>
+
+  </div>
+<div class="col-xs-3"><div></div></div>
+    <div class="card col-xs-6">
+         <a href="{% url 'survey:login' %}">
+<img src="/static/img/user.png">
+         </a>
+
+  </div>
+
+
+
+</div>
+</body>
+{% endblock %}
+</html>

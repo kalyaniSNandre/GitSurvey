@@ -1,0 +1,397 @@
+#container-main {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+p { }
+
+html, body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+
+#wrapbackgroundimg {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+	background-image: url(/media/img/dining-retouched-small.jpg);
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+	height: 60px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+
+#wrapper-narrow {
+	width: 700px;
+}
+
+.button-spacer {
+	padding-top: 30px;
+}
+
+.footer {
+	padding: 30px;
+	background-color: #f5f5f5;
+}
+
+.hero-unit h1 {
+	padding-bottom: 40px;
+}
+
+.hero-unit {
+}
+
+.hero-unit p {
+}
+
+.license {
+}
+
+.btn-xlarge {
+}
+
+.hero-engage {
+}
+
+.hero-engage > .btn-xlarge {
+}
+
+.box-link {
+}
+
+.footer {
+}
+
+textarea {
+}
+
+.helptext {
+}
+
+.navbar {
+}
+
+p.notice {
+	color: grey;
+	font-style: italic;
+}
+
+.res-detail {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.res-modify-btn {
+	width: 400px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+.res-status-btn {
+	cursor: default;
+}
+
+.timeline-tags {
+	font-style: italic;
+	font-size: 120%;
+}
+
+.new-reservation {
+	padding-top: 30px;
+}
+
+.btn-inline {
+	display: inline;
+}
+
+div.ui-datepicker{
+ font-size:10px;
+}
+
+.btn-red {
+	color: red;
+	border: 1px;
+}
+
+.btn-red:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.form-help-text {
+	font-style: italic;
+	font-size: 90%;
+}
+
+.field-wrapper {
+	width: 475px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+textarea {
+	width: 475px;
+	height: 120px;
+}
+
+.float-right {
+	float:right;
+}
+
+img.profile-page-img {
+	width: 300px;
+	height: 200px;
+}
+
+.user-links {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.user-link {
+	padding-right: 20px;
+}
+
+.icon-spacer {
+	padding-right: 10px;
+}
+
+/*ul.error-list ~ .form-field-body {
+	background-color: red;
+}
+*/
+.survey-description {
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 20px;
+
+}
+
+.question-required {
+	background: #E0FFD6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+h3.collapsible:hover {
+	cursor: hand; 
+	cursor: pointer; ;
+}
+
+.collapse-open span {
+    display:block;
+    float:left;
+    padding:20px; 
+}
+
+.accordion-open span, .collapse-open span {
+    background:url(/media/img/collapse.png) center center no-repeat; }
+
+.accordion-close span, .collapse-close span {
+    display:block;
+    float:left;
+    background:url(/media/img/expand.png) center center no-repeat;
+    padding:20px; 
+}
+
+.submit-button {
+	padding: 40px;
+}
+
+.submit-button > input {
+	font-size: 130%;
+	padding: 10px;
+}
+
+.asterix {
+	color: red;
+	font-size: 200%;
+	vertical-align: middle
+}
+
+.label-inline {
+	display: inline;
+}
+
+#intro {
+	width: 700px;
+	margin: auto;
+}
+
+label {
+	display: inline;
+	padding-right: 12px;
+}
+
+#id_comments, #id_conditions {
+	height: 50px;
+}
+
+ol.survey-questions {
+	margin-left: 0px;
+}
+
+.q-item {
+	margin-left: 60px;
+}
+
+.form-login {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+/*added by kalyani */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  background: ;
+  background: linear-gradient(to right;);
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+
